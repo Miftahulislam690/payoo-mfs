@@ -27,7 +27,7 @@
                     </div>
                     <div class="divider w-11/12 mx-auto">OR</div>
                     <!-- add money form -->
-                    <div class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div id="add-money-card" class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                         <form class="card-body">
                           <div class="form-control">
                             <label class="label">
@@ -47,7 +47,7 @@
                         </form>
                       </div>
                       <!-- cash out form -->
-                      <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                      <div id="cash-out-card" class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                         <form class="card-body">
                           <div class="form-control">
                             <label class="label">
@@ -60,9 +60,6 @@
                               <span class="label-text">Pin Number</span>
                             </label>
                             <input id="cash-out-input-pin" type="password" placeholder="Your Pin Number" class="input input-bordered" required />
-                            <label class="label">
-                              <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
-                            </label>
                           </div>
                           <div class="form-control mt-6">
                             <button id="cash-out-btn" class="btn btn-primary bg-red-600">Cash Out</button>
@@ -76,5 +73,6 @@
     </main>
     <script src="./js/addMoney.js"></script>
     <script src="./js/cashOut.js"></script>
+    <script src="./js/features.js"></script>
 </body>
 </html>
